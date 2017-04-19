@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Exo|Libre+Baskerville|Poppins|Quicksand');
+
+@font-face {
+	font-family:"Poppins";
+	src:url(../fonts/Poppins-Light.ttf);
+}
+body{
+		font-family: 'Poppins', sans-serif;
+}
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 60px;
+    color: #f4eb87;
+}
+.jumbotron-white{
+	background-color: white;
+}
+.jumbotron {
+    padding-top:30px;
+    padding-bottom: 1px;
+    margin-bottom: 0px; 
+}
+
+.second-column{
+	/*margin-right: 200p*/
+}
+.education_timeline{
+	width: 550px;
+	width: 100%;
+}
+.panel-default {
+	border: none;
+    border-color: #fff;
+    font-size: 16px;
+
+}
+/*.row-center{
+	display: flex;
+	align-items: center;
+}*/
+
+.donut{
+	width: 120px;
+}
+.hobbies-img{
+	width: 50px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.medal{
+	width: 60px;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+.panel-medal{
+	font-size: 14px;
+}
+li{
+	margin-top: 5px;
+	list-style-type: none;
+}
+.personal img{
+	width: 100px;
+}
+
+.social-buttons{
+	margin-top: -20px;
+	margin-bottom: 20px;
+	margin-left:380px;
+}
+.social-info img{
+	margin-right: 20px;
+}
+.social-buttons img{
+	width: 38px;
+}
+.panel-default>.panel-heading{
+	background-color: white;
+}
+.panel-default>.panel-heading h3{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #777;
+}
+.panel-default>.panel-heading.panel-social{
+	background-color: #8f8d8d;
+	color: white;		
+}
+/*.jumbotron-right{
+	background-color: #f4eb87;
+}*/
+.jumbotron li{
+	list-style-type: none;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.panel-heading img{
+	margin-right: 10px;
+	margin-left: 30px;
+}
