@@ -15,8 +15,8 @@ body{
 	background-color: white;
 }
 .jumbotron {
-    padding-top:30px;
-    padding-bottom: 1px;
+    padding-top:20px;
+    padding-bottom: 0px;
     margin-bottom: 0px; 
 }
 
@@ -61,17 +61,24 @@ li{
 .personal img{
 	width: 100px;
 }
+.center-block {  
+  display: block;  
+  margin-right: auto;  
+  margin-left: auto;  
+}
 
 .social-buttons{
-	margin-top: -20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left:380px;
+	margin-left:390px;
+	width: 400px;
 }
 .social-info img{
 	margin-right: 20px;
 }
 .social-buttons img{
-	width: 38px;
+	width: 32px;
+	margin-right:40px;
 }
 .panel-default>.panel-heading{
 	background-color: white;
@@ -83,7 +90,7 @@ li{
 }
 .panel-default>.panel-heading.panel-social{
 	background-color: #8f8d8d;
-	color: white;		
+	color: #FFFFFF;		
 }
 /*.jumbotron-right{
 	background-color: #f4eb87;
@@ -93,9 +100,20 @@ li{
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .panel-heading img{
 	margin-right: 10px;
 	margin-left: 30px;
+}
+.hr-gradient{
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #FFFFFF, #A1A1A1, #FFFFFF);
+  background-image: -moz-linear-gradient(left, #FFFFFF, #8c8b8b, #FFFFFF);
+  background-image: -ms-linear-gradient(left, #FFFFFF, #8c8b8b, #FFFFFF);
+  background-image: -o-linear-gradient(left, #FFFFFF, #8c8b8b, #FFFFFF); 
+  width: 45%;
+  margin-top: 10px; 
+  margin-bottom: 10px;
 }
