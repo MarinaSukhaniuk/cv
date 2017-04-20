@@ -20,9 +20,6 @@ body{
     margin-bottom: 0px; 
 }
 
-.second-column{
-	/*margin-right: 200p*/
-}
 .education_timeline{
 	width: 550px;
 	width: 100%;
@@ -33,11 +30,6 @@ body{
     font-size: 16px;
 
 }
-/*.row-center{
-	display: flex;
-	align-items: center;
-}*/
-
 .donut{
 	width: 120px;
 }
@@ -90,11 +82,11 @@ li{
 }
 .panel-default>.panel-heading.panel-social{
 	background-color: #8f8d8d;
-	color: #FFFFFF;		
+		
 }
-/*.jumbotron-right{
-	background-color: #f4eb87;
-}*/
+.panel-default>.panel-heading.panel-social a{
+	color: #FFFFFF;	
+}
 .jumbotron li{
 	list-style-type: none;
 }
